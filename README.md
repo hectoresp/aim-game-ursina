@@ -42,7 +42,7 @@ Timeit is used to show a timer inside the game.
 
 ## Setup
 
-To execute this program go to your console and type the following line or execute the .exe file:
+To execute this program go to your console and type the following line:
 ```
 $ python main.py
 ```
