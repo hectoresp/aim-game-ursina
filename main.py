@@ -1,10 +1,15 @@
-from ursina import *
-from point import Point
-from score import *
-from menu import MenuButton
-from player import Player
-from timeit import default_timer
-import pickle
+try:
+    from ursina import *
+    from point import Point
+    from score import *
+    from menu import MenuButton
+    from player import Player
+    from timeit import default_timer
+    import pickle
+except ModuleNotFoundError:
+    print("Installing required modules...")
+    from os import system
+    system("python -m pip install -r requirements.txt")
 
 player = Player()
 
